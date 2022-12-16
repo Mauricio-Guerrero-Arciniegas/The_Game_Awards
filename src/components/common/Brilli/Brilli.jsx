@@ -1,8 +1,7 @@
-import './Brilli.scss'
+import './Brilli.scss';
 
-
-export const Brilli = ({ nombre = 'Botón', href }) => {
+export const Brilli = ({ nombre = 'Botón' , href }) => {
     return (
-        <a className='Brilli' href={href}>{nombre}</a>
+        <a className="Brilli" href={ href }>{ nombre }</a>
     )
 }
